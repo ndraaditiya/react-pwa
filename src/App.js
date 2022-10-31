@@ -1,31 +1,27 @@
-import React, { useState } from 'react';
-import QrReader from 'modern-react-qr-reader'
+import React from "react"
+import "./App.css"
+import ParticlesBg from "particles-bg"
+import Content from "./pages/content/Content"
+import Header from "./pages/header/Header"
 
 const App = () => {
-  const [result, setResult] = useState('No Result')
-
-  const handleScan = (data) => {
-    setResult(data)
-    console.log(data)
-  }
-
-  const handleError = (err) => {
-    console.error(err)
-  }
-
   return (
-    <div>
-      <QrReader
-        delay={1000}
-        style={{ width: '100%' }}
-        onError={handleError}
-        onScan={handleScan}
-        facingMode={"environment"}
+    <>
+      <ParticlesBg type="circle"
+        bg={{
+          position: "absolute",
+          zIndex: -1,
+          top: 0,
+          left: 0,
+          minHeight: 675
+        }}
       />
-      <br />
-      <p>{result}</p>
-    </div>
-  );
+      <div style={{ color: '#fff' }}>
+        <Header />
+        <Content />
+      </div>
+    </>
+  )
 }
 
-export default App;
+export default App
