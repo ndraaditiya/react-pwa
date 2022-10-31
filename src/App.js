@@ -1,23 +1,25 @@
 import React, { useState } from 'react';
-import { QrReader } from 'react-qr-reader'
+import QrReader from 'modern-react-qr-reader'
 
 const App = () => {
   const [result, setResult] = useState('No Result')
 
+  const handleScan = (data) => {
+    setResult(data)
+  }
+
+  const handleError = (err) => {
+    console.error(err)
+  }
+
   return (
     <div>
       <QrReader
-        onResult={(result, error) => {
-          if (!!result) {
-            setResult(result?.text);
-          }
-
-          if (!!error) {
-            console.info(error);
-          }
-        }}
+        delay={300}
         style={{ width: '100%' }}
-        facingMode={'environment'}
+        onError={handleError}
+        onScan={handleScan}
+        facingMode={"environment"}
       />
       <br />
       <p>{result}</p>
