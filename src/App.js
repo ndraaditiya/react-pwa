@@ -25,6 +25,7 @@ const App = () => {
         style={previewStyle}
         onError={handleError}
         onScan={handleScan}
+        facingMode={'rear'}
       />
       <br />
       <p>{result}</p>
