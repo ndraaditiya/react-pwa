@@ -6,6 +6,7 @@ const App = () => {
 
   const handleScan = (data) => {
     setResult(data)
+    console.log(data)
   }
 
   const handleError = (err) => {
@@ -15,7 +16,7 @@ const App = () => {
   return (
     <div>
       <QrReader
-        delay={300}
+        delay={1000}
         style={{ width: '100%' }}
         onError={handleError}
         onScan={handleScan}
