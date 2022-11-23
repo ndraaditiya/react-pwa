@@ -9,7 +9,7 @@ import { data } from '../../data'
 const Content = () => {
   const height = window.innerHeight
   const styleGridCard = { flexWrap: 'wrap', display: 'flex', paddingBottom: 3, paddingRight: 2.5 }
-  const styleBoxCard = { height: height-255, width: '100%', overflow: 'auto' }
+  const styleBoxCard = { height: height - 255, width: '100%', overflow: 'auto' }
   const styleFontSoftware = { fonWeight: 'bold', my: 1, color: '#ffffff' }
   const styleFontTitleProject = { fontWeight: 'bold', fontSize: 15, color: '#ffffff' }
 
@@ -28,7 +28,7 @@ const Content = () => {
               value={value}
               onChange={handleChange}
               textColor='none'
-              indicatorColor='primary'
+              indicatorColor='secondary'
               variant="scrollable"
               scrollButtons
               allowScrollButtonsMobile
@@ -45,10 +45,10 @@ const Content = () => {
               <div className='glass-card'>
                 <Motion>
                   <p style={{ fontSize: 16.5 }}>
-                    Hi, I am a Full Stack JavaScript Developer. In development an app, I usually use React, 
+                    Hi, I am a Full Stack JavaScript Developer. In development an app, I usually use React,
                     React Native, NodeJs, Express, Sequelize and Material-UI.
                   </p>
-                  <p style={{ fontSize: 14  }}>
+                  <p style={{ fontSize: 14 }}>
                     From 2017 - Present, I work at PT. Medika Antapani as a software  developer,
                     a company who engaged in the health sector.
                   </p>
@@ -76,7 +76,7 @@ const Content = () => {
               <div className="glass-card">
                 <Motion>
                   <Typography variant="body1" sx={{ fontWeight: 'bold', marginTop: 2 }}>
-                    I live in Bandung, Indonesia. 
+                    I live in Bandung, Indonesia.
                   </Typography>
                   <p style={{ fontSize: 16 }}>
                     I am a Bachelor of Informatics Engineering.
