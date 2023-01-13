@@ -35,8 +35,8 @@ const Content = () => {
             >
               <Tab label="Home" sx={{ textTransform: 'none', fontWeight: 'bold' }} {...labelProps(0)} />
               <Tab label="About" sx={{ textTransform: 'none', fontWeight: 'bold' }} {...labelProps(1)} />
-              <Tab label="Project" sx={{ textTransform: 'none', fontWeight: 'bold' }}  {...labelProps(2)} />
-              <Tab label="Book" sx={{ textTransform: 'none', fontWeight: 'bold' }} {...labelProps(3)} />
+              <Tab label="Projects" sx={{ textTransform: 'none', fontWeight: 'bold' }}  {...labelProps(2)} />
+              <Tab label="Books" sx={{ textTransform: 'none', fontWeight: 'bold' }} {...labelProps(3)} />
               <Tab label="YouTube" sx={{ textTransform: 'none', fontWeight: 'bold' }} {...labelProps(4)} />
             </Tabs>
           </Container>
@@ -45,12 +45,12 @@ const Content = () => {
               <div className='glass-card'>
                 <Motion>
                   <p style={{ fontSize: 16.5 }}>
-                    Hi, I am a Full Stack JavaScript Developer. In development an app, I usually use React,
-                    React Native, NodeJs, Express, Sequelize and Material-UI.
+                    Hi, I am a Software Developer with more than 3 years experience.
                   </p>
                   <p style={{ fontSize: 14 }}>
-                    From 2017 - Present, I work at PT. Medika Antapani as a software  developer,
-                    a company who engaged in the health sector.
+                    I Have strong knowledge about React Js, React Hooks, Axios, Material-UI, Sequelize, SQL Server and MySQL.
+                    Also have good knowledge about Typescript, Express Js, React-Redux, Recoil, JSON
+                    Web Token (JWT), Progressive Web App (PWA), RESTful API, MongoDB, Framer Motion and Git/GitHub.
                   </p>
                   <p style={{ fontSize: 13, fontWeight: 'bold', marginBottom: 5 }}>You can also see me on:</p>
                   <div className="contact">
@@ -79,15 +79,12 @@ const Content = () => {
                     I live in Bandung, Indonesia.
                   </Typography>
                   <p style={{ fontSize: 16 }}>
-                    I am a Bachelor of Informatics Engineering.
+                    In 2022, I've graduated as Bachelor's of Informatics Engineering from Universitas Sangga Buana YPKP Bandung.
                   </p>
                   <p>
-                    In hobbies, i like to read a book, write a poetry or rhymes or even a novel.
-                    I also like excersing, such as running, cycling, swimming and many more
-                  </p>
-                  <p>
-                    I have a segment on my partner YouTube called sudutRenungan,
-                    it's a rhyme musical video where i am being a writer and a voice over
+                    In type of person, I'm a honest and humorous person, good problem solver and have good time management.<br />
+                    In hobbies, i like to read a book, write a poetry or rhymes or even a novel, and also like listening to podcasts.
+                    I also like excersing, such as running, cycling, swimming, badminton, and many more.
                   </p>
                 </Motion>
               </div>

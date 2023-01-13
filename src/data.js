@@ -53,15 +53,7 @@ const data =
           title: 'Decision Support System',
           picture: 'project4.jpg',
           url: 'https://youtu.be/A2h4n4ye_Zo'
-        },
-        {
-          id: 7,
-          versi: 'Microcontroller',
-          software: 'Arduino',
-          title: 'Arduino Uno',
-          picture: 'project5.jpg',
-          url: 'https://youtube.com/playlist?list=PL7tAtlCa5ppqZ0c-tZzAtuFch3OOzMhSc'
-        },
+        }
       ],
       book: [
         {
@@ -87,13 +79,6 @@ const data =
           picture: 'youtube1.jpg',
           url: 'https://www.youtube.com/channel/UCUbpXnPEpFJ0I7OloQ4BX1A'
         }
-        // {
-        //   id: 2,
-        //   title: 'SpotKita',
-        //   caption: 'I have a segment called sudutRenungan in this my partner YouTube',
-        //   picture: 'youtube2.jpg',
-        //   url: 'https://www.youtube.com/c/SpotKita'
-        // }
       ],
       contactDetails: [
         {

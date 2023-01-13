@@ -22,18 +22,9 @@ const CardContainer = ({
   children
 }) => {
 
-  // useEffect(() => {
-  // fetch('http://103.148.232.131:8585/asset-it/hardware/hw1')
-  // fetch('https://sdm.mamobileapps.net/get-api')
-  //   fetch('https://medikaantapani.co.id:8000/test')
-  //     .then((res) => res.json())
-  //     .then((data) => console.log(data))
-  //     .catch((err) => console.log(err))
-  // }, [])
-
   return (
     <>
-      <Tooltip title={title ?? "Go to Website"} placement='top' sx={{ display: { xs: 'block', sm: 'none' } }}>
+      <Tooltip title={title ?? "Go to Website"} placement='top' sx={{ display: { xs: 'none', sm: 'block' } }}>
         <Card sx={{ minWidth: width, maxWidth: width, ...style }}>
           <a href={link} target='_blank' rel="noreferrer">
             <CardMedia
