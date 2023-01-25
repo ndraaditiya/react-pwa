@@ -48,8 +48,8 @@ const Content = () => {
                     Hi, I am a Software Developer with more than 3 years experience.
                   </p>
                   <p style={{ fontSize: 14 }}>
-                    I Have strong knowledge about React Js, React Hooks, Axios, Material-UI, Sequelize, SQL Server and MySQL.
-                    Also have good knowledge about Typescript, Express Js, React-Redux, Recoil, JSON
+                    I Have strong knowledge about React Js, React Hooks, Material-UI, Sequelize, SQL Server and MySQL.
+                    Also have good knowledge about Vue Js, Express Js, React-Redux, Recoil, React-Query, RTK-Query, JSON
                     Web Token (JWT), Progressive Web App (PWA), RESTful API, MongoDB, Framer Motion and Git/GitHub.
                   </p>
                   <p style={{ fontSize: 13, fontWeight: 'bold', marginBottom: 5 }}>You can also see me on:</p>
